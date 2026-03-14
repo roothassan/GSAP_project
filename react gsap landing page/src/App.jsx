@@ -3,12 +3,19 @@ import gsap from 'gsap'
 import { ScrollTrigger, SplitText } from 'gsap/all'
 gsap.registerPlugin(ScrollTrigger, SplitText)
 import './App.css'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
   return (
-    <div className='flex-center h-[100vvh]'>
-     <h6 className='text-3xl text-indigo-300'>Hello</h6>
-    </div>
+    <main>
+      <Navbar/>
+      <Hero/>
+      <div className='h-dvh bg-white'/>
+      
+  
+
+    </main>
   )
 }
 
