@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger, SplitText)
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import Cocktails from "./components/Cocktails"
+import Cocktails from './components/Cocktailss'
 
 function App() {
   return (
